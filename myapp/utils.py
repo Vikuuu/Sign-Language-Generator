@@ -9,8 +9,6 @@ import sys
 from six.moves import urllib
 from myproject.settings import BASE_DIR
 
-# somti
-
 
 # Download zip file from https://nlp.stanford.edu/software/stanford-parser-full-2015-04-20.zip and extract in stanford-parser-full-2015-04-20 folder in higher directory
 os.environ["CLASSPATH"] = os.path.join(BASE_DIR, "stanford-parser-full-2018-10-17")
